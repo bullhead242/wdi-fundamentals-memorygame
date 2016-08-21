@@ -1,3 +1,62 @@
-/* This is a multi-line
-comment. Add your CSS code
-from Unit 1 - 5 below  */
+<link rel="stylesheet" type="text/css" href="css/reset.css">
+
+h1 {font-size: 48px;
+	color: rgb(2,132,130);
+}
+
+h2 {text-align: center;
+	color: #ffd700;
+}
+
+p {
+	text-align: center;
+}
+
+nav {
+	background: #808080;
+}
+
+nav a{
+	background: #ffbf00;
+	color: rgb(255,255,255);
+	padding: 35px;
+	display: block;
+	float: left;
+}
+
+.board {
+	height: 50%;
+	width: 50%;
+	display: inline-block;
+	color: #00FFAB;
+	float: left;
+	margin: 8%;
+}
+
+.card {
+	height: 200px;
+	width: 150px;
+	border-style: groove;
+	border-width: 1px;
+	border-color: rgb(0,0,0);
+	background-color: rgb(255,255,0);
+	float: left;
+	margin: 5%;
+}
+.name {
+	color: #FF0000;
+}
+
+footer {
+	clear: both;
+	background: #808080;
+	text-align: center;
+}
+      .clearfix:after {
+        visibility: hidden;
+        display: block;
+        content: " ";
+        clear: both;
+        height: 0;
+        font-size: 0;
+      }
